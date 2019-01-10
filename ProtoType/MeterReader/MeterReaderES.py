@@ -213,7 +213,7 @@ def main():
         cv2.imshow("Camera Preview", image)
         key = cv2.waitKey(10) & 0xff
         rawCapture.truncate(0)
-        if key == 27 :
+        if key == 27 :  # "Esc" to stop
             break
 
     # カメラ終了
