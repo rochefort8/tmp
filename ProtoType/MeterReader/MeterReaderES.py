@@ -1,3 +1,6 @@
+
+# Detect & Read NeedleMeter
+
 import cv2
 import numpy as np
 import sys
@@ -105,21 +108,20 @@ def ReadNeedleMeter(imgGray, max, min, origin, val_range, centerX, centerY, widt
         print("no line")
 
 
-# 対象画像
-# 検知用
+# Detect Meter
 def detectMeter(w, h, target, detector, kps, dps ):
 
-    # gray scale
+    # Convert gray scale
     gray = cv2.cvtColor(target, cv2.COLOR_BGR2GRAY)
 
-    # 特徴量算出
+    # Compute Feature value
     kpt, dpt = detector.detectAndCompute(gray, None)
 
-    # matching
+    # Matching
     bf = cv2.BFMatcher()
     matches = bf.knnMatch(dps,dpt, k=2)
 
-    # selection
+    # Selection
     good = []
     for dms, dmt in matches:
         if(dms.distance < dmt.distance * 0.6) :
@@ -130,7 +132,7 @@ def detectMeter(w, h, target, detector, kps, dps ):
     if len(good) < 10:
         return False, target
 
-    # 透視変換
+    # Perspective Transformation
     M, mask = cv2.findHomography(mpnt_s, mpnt_t, cv2.RANSAC, 3.0)
     matchesMask = mask.ravel().tolist()
 
@@ -139,7 +141,7 @@ def detectMeter(w, h, target, detector, kps, dps ):
     dst = cv2.perspectiveTransform(pts, M)
     detectedInTarget = cv2.polylines(target, [np.int32(dst)], True, (0,255,0), 2, cv2.LINE_AA)
 
-    # 切り抜き
+    # Cut
     invM = np.linalg.inv(M)
     warped = cv2.warpPerspective(gray, invM, (w,h))
     return True, warped
@@ -150,7 +152,7 @@ def detectMeter(w, h, target, detector, kps, dps ):
 def main():
     print(sys.argv)
 
-    # キャリブレーションファイル読み込み
+    # load calibration
     with open('calibration.ini', mode='r') as f:
         l = [s.strip() for s in f.readlines()]
         path = l[0]
@@ -173,18 +175,17 @@ def main():
     print(width)
     print(height)
 
-    # テンプレート画像読み込み
+    # load template
     imgTemp = cv2.imread(path,0)
     cv2.imshow("Template", imgTemp)
     
-    # 特徴量算出
-    # A-KAZE
+    # A-KAZE as detector
     akaze = cv2.AKAZE_create()
 
     # key points and descriptor
     kps, dps = akaze.detectAndCompute(imgTemp, None)
 
-    # カメラ起動
+    # Start camera
     camera = PiCamera()
     camera.resolution = (640, 480)
     camera.framerate = 32
@@ -197,7 +198,7 @@ def main():
     for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True) :
         image = frame.array
 
-        # メーター検出
+        # Detect Meter
         result, meter = detectMeter(width, height, image, akaze, kps, dps)
         if(result) :
             cv2.imshow("Meter", meter)
@@ -216,10 +217,10 @@ def main():
         if key == 27 :
             break
 
-    # カメラ終了
+    # Stop camera
     camera.close()
 
-    # 画面閉じる
+    # Close all windows
     cv2.destroyAllWindows()
 
 if __name__=='__main__':
