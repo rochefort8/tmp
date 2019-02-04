@@ -13,7 +13,7 @@ send_data() {
     json='{"date":'\"$date\"',"value":'$value'}'
 
     echo $json
-    curl $endpoint -X POST -H "Content-Type:application/json" -d $json 2>$1 > /dev/null
+    curl $endpoint -X POST -H "Content-Type:application/json" -d $json 2>&1 | tee log.txt > /dev/null
 }
     
 while [ 1 ];
