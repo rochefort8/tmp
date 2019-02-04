@@ -13,7 +13,7 @@ topic="gauge/1"
 
 send_data() {
     value=$1
-    date=`date "+%Y-%m-%dT%H:%M:%S"`
+    date=`TZ=london date "+%Y-%m-%dT%H:%M:%S"`
     json='{"date":'\"$date\"',"value":'$value'}'
 
     echo $json
