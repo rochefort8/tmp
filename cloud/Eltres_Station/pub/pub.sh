@@ -1,0 +1,1 @@
+mosquitto_pub --cafile cert/rootCA.pem --cert cert/17cfce4b83-certificate.pem.crt --key cert/17cfce4b83-private.pem.key -h a3c6t2xavixp02-ats.iot.ap-northeast-1.amazonaws.com -p 8883 -q 1 -d -t eltres/1 -i sss -m '{ "data" : "1234" }'
