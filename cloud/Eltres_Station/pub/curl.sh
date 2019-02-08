@@ -1,0 +1,1 @@
+curl --tlsv1.2 -X POST -cacert cert/rootCA.pem --cert cert/17cfce4b83-certificate.pem.crt --key cert/17cfce4b83-private.pem.key https://a3c6t2xavixp02-ats.iot.ap-northeast-1.amazonaws.com:8443/topics/eltres/1?qos=1 -d '{ "data":"1234" }'
