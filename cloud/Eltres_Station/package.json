@@ -1,0 +1,25 @@
+{
+  "name": "eltres_station",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochefort8/analog_meter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochefort8/analog_meter/issues"
+  },
+  "homepage": "https://github.com/rochefort8/analog_meter#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "request": "^2.88.0",
+    "serverless": "^1.37.1",
+    "vogels": "^2.2.0"
+  }
+}

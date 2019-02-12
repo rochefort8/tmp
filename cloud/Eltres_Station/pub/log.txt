@@ -1,0 +1,828 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.1 200 Connection established
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (35) gnutls_handshake() failed: Certificate is bad
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 665
+
+100   666  100   665  100     1  73888    111 --:--:-- --:--:-- --:--:-- 73999
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "&quot;version&quot;" could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 648
+
+100   649  100   648  100     1  24923     38 --:--:-- --:--:-- --:--:-- 24961
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "1," could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 669
+
+100   670  100   669  100     1  12865     19 --:--:-- --:--:-- --:--:-- 12884
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "&quot;datapayload&quot;" could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 691
+
+100   692  100   691  100     1  15704     22 --:--:-- --:--:-- --:--:-- 15726
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "&quot;f0de5dc82478d12ca0ee8d6e1c8e4390&quot;," could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+100     1    0     0  100     1      0   1000 --:--:-- --:--:-- --:--:--  1000
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 665
+
+100   666  100   665  100     1  51153     76 --:--:-- --:--:-- --:--:-- 51229
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "&quot;lfourid&quot;" could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 653
+
+100   654  100   653  100     1  14840     22 --:--:-- --:--:-- --:--:-- 14862
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "123456," could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 664
+
+100   665  100   664  100     1  16600     25 --:--:-- --:--:-- --:--:-- 16625
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "&quot;txtime&quot;" could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 876
+
+100   877  100   876  100     1   106k    125 --:--:-- --:--:-- --:--:--  107k
+<HTML><HEAD>
+
+
+
+<TITLE>Network Error</TITLE>
+
+
+
+</HEAD>
+
+
+
+<BODY>
+
+
+
+<FONT face="Helvetica">
+
+
+
+<big><strong></strong></big><BR>
+
+
+
+</FONT>
+
+
+
+<blockquote>
+
+
+
+<TABLE border=0 cellPadding=1 width="80%">
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+<big>Network Error (dns_unresolved_hostname)</big>
+
+
+
+<BR>
+
+
+
+<BR>
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+Your requested host "1538352000000," could not be resolved by DNS.
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica" SIZE=2>
+
+
+
+<BR>
+
+
+
+For assistance, contact your network support team.
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+</TABLE>
+
+
+
+</blockquote>
+
+
+
+</FONT>
+
+
+
+</BODY></HTML>
+
+
+
+curl: (3) [globbing] unmatched brace in column 14
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 884
+
+100   885  100   884  100     1  13194     14 --:--:-- --:--:-- --:--:-- 13208
+<HTML><HEAD>
+
+
+
+<TITLE>Network Error</TITLE>
+
+
+
+</HEAD>
+
+
+
+<BODY>
+
+
+
+<FONT face="Helvetica">
+
+
+
+<big><strong></strong></big><BR>
+
+
+
+</FONT>
+
+
+
+<blockquote>
+
+
+
+<TABLE border=0 cellPadding=1 width="80%">
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+<big>Network Error (dns_unresolved_hostname)</big>
+
+
+
+<BR>
+
+
+
+<BR>
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+Your requested host "&quot;service_id&quot;" could not be resolved by DNS.
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica" SIZE=2>
+
+
+
+<BR>
+
+
+
+For assistance, contact your network support team.
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+</TABLE>
+
+
+
+</blockquote>
+
+
+
+</FONT>
+
+
+
+</BODY></HTML>
+
+
+
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 663
+
+100   664  100   663  100     1  14413     21 --:--:-- --:--:-- --:--:-- 14434
+<HTML><HEAD>
+<TITLE>Network Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Network Error (dns_unresolved_hostname)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Your requested host "&quot;0000&quot;," could not be resolved by DNS.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Content-Length: 863
+
+100   864  100   863  100     1  23324     27 --:--:-- --:--:-- --:--:-- 23351
+<HTML><HEAD>
+
+
+
+<TITLE>Network Error</TITLE>
+
+
+
+</HEAD>
+
+
+
+<BODY>
+
+
+
+<FONT face="Helvetica">
+
+
+
+<big><strong></strong></big><BR>
+
+
+
+</FONT>
+
+
+
+<blockquote>
+
+
+
+<TABLE border=0 cellPadding=1 width="80%">
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+<big>Network Error (dns_unresolved_hostname)</big>
+
+
+
+<BR>
+
+
+
+<BR>
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+Your requested host "}" could not be resolved by DNS.
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica">
+
+
+
+
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+<TR><TD>
+
+
+
+<FONT face="Helvetica" SIZE=2>
+
+
+
+<BR>
+
+
+
+For assistance, contact your network support team.
+
+
+
+</FONT>
+
+
+
+</TD></TR>
+
+
+
+</TABLE>
+
+
+
+</blockquote>
+
+
+
+</FONT>
+
+
+
+</BODY></HTML>
+
+
+
+curl: (3) [globbing] unmatched close brace/bracket in column 1
